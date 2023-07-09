@@ -16,7 +16,7 @@ class MainActivity : ComponentActivity() {
 
         val viewModel: MainViewModel by viewModels()
 
-        viewModel.init(applicationContext) // Перенесено сюда
+        viewModel.init(applicationContext) 
 
         setContent {
             MyApp(viewModel)
